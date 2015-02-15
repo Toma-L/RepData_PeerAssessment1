@@ -263,14 +263,14 @@ plot(d.act, type = &quot;l&quot;, xlab = &quot;Interval&quot;, ylab = &quot;# of
 
 <p>##Step 4: Imputing missing values</p>
 
-<p>3.1: Calculate and report the total number of missing values in the dataset.</p>
+<p>4.1: Calculate and report the total number of missing values in the dataset.</p>
 
 <pre><code class="r">num.na &lt;- sum(is.na(act))
 </code></pre>
 
 <p>There are 2304 in the dataset.</p>
 
-<p>3.2: Fill missing data with mean of daily activity and make new plot with new dataset.</p>
+<p>4.2: Fill missing data with mean of daily activity and make new plot with new dataset.</p>
 
 <pre><code class="r">##Replace missing values with mean of daily activity.
 act2 &lt;- act
@@ -301,7 +301,7 @@ mean.total2 &lt;- mean(new.act2$sum)
 median.total2 &lt;- median(new.act2$sum)
 </code></pre>
 
-<p>Conclusion 3.2:</p>
+<p>Conclusion 4.2:</p>
 
 <ul>
 <li>The mean of the total number of steps taken per day is 1.0766189 &times; 10<sup>4</sup>.</li>

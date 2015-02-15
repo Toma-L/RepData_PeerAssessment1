@@ -73,7 +73,7 @@ Report: The 835 contains the maximum number of steps.
 
 ##Step 4: Imputing missing values
 
-3.1: Calculate and report the total number of missing values in the dataset.
+4.1: Calculate and report the total number of missing values in the dataset.
 
 
 ```r
@@ -83,7 +83,7 @@ num.na <- sum(is.na(act))
 There are 2304 in the dataset.
 
 
-3.2: Fill missing data with mean of daily activity and make new plot with new dataset.
+4.2: Fill missing data with mean of daily activity and make new plot with new dataset.
 
 
 ```r
@@ -119,7 +119,7 @@ mean.total2 <- mean(new.act2$sum)
 median.total2 <- median(new.act2$sum)
 ```
 
-Conclusion 3.2:
+Conclusion 4.2:
 
 * The mean of the total number of steps taken per day is 1.0766189 &times; 10<sup>4</sup>.
 * The median of the total number of steps taken per day is 1.0766189 &times; 10<sup>4</sup>.
